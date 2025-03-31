@@ -9,7 +9,7 @@ int main()
         for (y = 0; y < 3; y++) board[x][y] = ' ';
 
     for (k = 0; k < 9; k++) {
-        printf("(x, y) ÁÂÇ¥: ");
+        printf("(x, y) 좌표: ");
         scanf_s(" %d %d", &x, &y);
         board[x][y] = (k % 2 == 0) ? 'X' : 'O';
 
